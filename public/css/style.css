@@ -1,0 +1,465 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.bg {
+    height: 660px;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0,6),rgba(0,0,0,0,6)),;
+    background-image: url("../img/swh.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 2px;
+    padding-left: 15%;
+    padding-right: 10%;
+}
+
+nav ul li {
+    font-size: 20px;
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover {
+    color: #ffffff;
+    transition: .3s;
+}
+
+.nav-link:hover {
+    color: #000000;
+}
+a.nav-link:hover {
+    color: #FFFFFF;
+}
+
+.logo-smk {
+    height: 100px;
+    margin-left: 250px;
+    margin-top: -85px;
+}
+.h1 {
+    font-weight: bold;
+    color: white;
+    text-align: center; 
+    margin-top: 130px;
+}
+.search {
+    margin-left: 330px;
+    margin-top: 15px;
+    justify-content: center;
+    width: 700px;
+    height: 50px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.search input {
+    flex: 1;
+    height: 30px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+                                                /* NAVBAR DROPDOWN */
+.dropbtn {
+    /* font-size: 20px; */
+    font-weight: bold;
+    background: transparent;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    font-weight: bold;
+    font-size: 16px;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 220px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+                                                         /* HOME */
+                                                            /* HUT */
+.header-cont{
+    font-weight: bold;
+    font-size: 30px;
+    position: absolute;
+    width: 800px;
+    left: 400px;
+    top: 80px;
+}
+
+.header-content2 {
+    font-size: 16px;
+    position: absolute;
+    width: 580px;
+    height: 92px;
+    margin-left: 390px;
+    top: 170px;
+}
+.header-image {
+    position: relative;
+    margin: auto;
+    padding-top: 60px;
+    animation: bounceTop-1 3s ease infinite;
+}
+
+.image-1 {
+    width: 270px;
+    height: 260px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.btn {
+    font-weight: bold;
+    margin-top: 20px;
+    min-width: 140px;
+    border-radius: 13px;
+}
+.btn a:hover {
+    color: #000000;
+}
+
+                                                        /* KEPALA SEKOLAH */
+.header-kpl{
+    font-weight: bold;
+    font-size: 30px;
+    position: absolute;
+    width: 800px;
+    left: 10px;
+    top: 25px;
+}
+
+.content-kpl2 {
+    font-size: 16px;
+    position: absolute;
+    width: 580px;
+    height: 92px;
+    margin-left: -5px;
+    top: 90px;
+}
+.img-kepsek {
+    margin-left: 100%;
+    position: relative;
+    margin: auto;
+    /* padding-top: 60px; */
+    animation: bounceTop-1 3s ease infinite;
+}
+
+.image-2 {
+    width: 360px;
+    height: 280px;
+    margin-left: 280%;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.btn {
+    font-weight: bold;
+    margin-top: 20px;
+    min-width: 140px;
+    border-radius: 13px;
+}
+.btn a:hover {
+    color: #000000;
+}
+
+                                                            /* PROFIL SMKN 2 */
+.header-cont3 {
+    font-weight: bold;
+    font-size: 30px;
+    position: absolute;
+    width: 600px;
+    left: 500px;
+    top: 60px;
+}
+
+.header-smk3 {
+    font-size: 16px;
+    position: absolute;
+    width: 580px;
+    height: 92px;
+    margin-left: 490px;
+    top: 110px;
+}
+
+.header-smk {
+    position: relative;
+    margin: auto;
+    padding-top: 40px;
+    animation: bounceTop-1 3s ease infinite;
+}
+
+.image-3 {
+    width: 450px;
+    height: 270px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.btn {
+    font-weight: bold;
+    margin-top: 20px;
+    min-width: 140px;
+    border-radius: 13px;
+}
+.btn a:hover {
+    color: #000000;
+}
+
+.bottom-bar {
+    padding: 15px 0;
+    background: #e71515;
+    margin-bottom: 30px;
+    margin-right: 400px;
+}
+
+.bottom-bar .search {
+    width: 100%;
+}
+
+.bottom-bar .search input[type=text] {
+    width: 100%;
+    height: 40px;
+    padding: 0 15px;
+    color: #666666;
+    border: 1px solid #FF6F61;
+    border-radius: 4px;
+}
+
+.bottom-bar .search button {
+    position: absolute;
+    width: 40px;
+    height: 38px;
+    top: 1px;
+    right: 16px;
+    padding: 0 15px;
+    border: none;
+    background: none;
+    color: #FF6F61;
+    border-radius: 0 2px 2px 0;
+}
+
+.bottom-bar .search button:hover {
+    background: #000000;
+    color: #ffffff;
+}
+
+@media (max-width: 767.98px) {
+    .bottom-bar .search {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+}
+
+                                                                /* BERITA */
+    .main{
+        margin: 2%;
+        padding-left: 60px;
+    }
+
+    .card{
+        width: 25%;
+        display: inline-block;
+        /* box-shadow: 2px 2px 20px black; */
+        border-radius: 10px; 
+        margin: 3%;
+    }
+
+    .image img{
+        width: 100%;
+    }
+
+    .title {
+        text-align: center;
+        padding: 5px;
+    }
+
+    h1 {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .des{
+        padding: 3px;
+        text-align: center;
+        padding-top: 5px;
+    }
+
+    .event {
+        text-align: center;
+        margin-top: 50px;
+        font-size: 36px;
+    }
+
+                                                            /* AGENDA */
+
+    .recent-events {
+        width: 650px;
+        
+    }
+    .event-post {
+        position: relative;
+        background: #f3f3f3 none repeat scroll 0 0;
+        clear: both;
+        margin-bottom: 18px;
+        overflow: hidden;
+        padding: 15px 15px 0;
+        border-radius: 20px;
+    }
+    h3 {
+        float: right;
+        margin-top: 10px;
+        font-size: 23px;
+    }
+                                                            /* FOOTER */
+
+    .loker {
+        position: relative;
+        margin-top: 80px;
+        /* padding-top: 80px; */
+    }
+    
+   
+
+
+.footer {
+    position: relative;
+    padding: 30px 0 0 0;
+    background: #ffffff;
+
+}
+
+.footer .footer-widget {
+    position: relative;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.footer .footer-widget h2 {
+    font-size: 30px;
+    font-weight: bold;
+    white-space: nowrap;
+    margin-bottom: 20px; 
+}
+
+.footer .footer-widget ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer .footer-widget ul li {
+    margin-bottom: 12px; 
+}
+
+.footer .footer-widget ul li:last-child {
+    margin-bottom: 0; 
+}
+
+.footer .footer-widget ul li a {
+    color: #353535;
+    white-space: nowrap;
+    display: block;
+    line-height: 23px;
+    transition: all .3s;
+}
+
+.footer .footer-widget ul li a::before {
+    content: '\f105';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    padding-right: 5px;
+}
+
+.footer .footer-widget ul li a:hover {
+    color: #FF6F61;
+}
+
+.footer .footer-widget ul li a:hover::before {
+    content: '\f101';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+}
+
+.footer .contact-info p {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.footer .contact-info p i {
+    margin-right: 5px;
+}
+
+.footer .social {
+    position: relative;
+    width: 100%;
+}
+
+.footer .social a {
+    display: inline-block;
+    margin: 10px 5px 0 0;
+    width: 40px;
+    height: 40px;
+    padding: 6px 0;
+    text-align: center;
+    font-size: 18px;
+    color: #353535;
+    border: 1px solid #353535;
+    border-radius: 4px;
+    transition: all .3s;
+}
+.footer .social a:hover {
+    color: #ff0000;
+    border-color: #FF6F61;
+}
+
+.footer-bottom {
+    position: relative;
+    padding: 25px 0;
+    background: #6495ED;
+}
+
+.footer-bottom .copyright p {
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
